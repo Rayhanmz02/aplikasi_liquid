@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liquid Premium 88"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:text="promo today abangkuu!!!"
+    android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="33dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:text="sunday funday " />
+
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="440dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sundayfunday" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="528dp"
+        android:layout_height="wrap_content"
+        android:text="from Rp.65,000 -> to Rp.55,000 only" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="23dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp">
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="centaurus m200" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ggg" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="528dp"
+        android:layout_height="wrap_content"
+        android:text="from Rp.685,000 -> to Rp.545,000 only" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:text="oxva slim pro " />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bbb" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="528dp"
+        android:layout_height="wrap_content"
+        android:text="from Rp.300,000 -> to Rp.249,999 only" />
+
+    <TextView
+        android:id="@+id/textViewx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:text="membership" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*potongan hingga 5%" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:text="beli" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:text=""
+        android:textSize="13dp"
+        android:textStyle="normal" />
+
+
+</LinearLayout>
