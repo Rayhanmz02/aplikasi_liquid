@@ -70,7 +70,8 @@ String hasil2;
             double potongan = hasil * member;
             bon.append("Potongan Member: Rp.").append(potongan).append("\n");
         }
-        bon.append("Total Harga: Rp.").append(hasil2).append("\n");//
+        bon.append("Total Harga: Rp.").append(hasil2).append("\n");
+        bon.append("terima kasih telah berbelanja di toko kami abangkuu");
 
         // Tampilkan bon pada TextView1
         textView1.setText(bon.toString());
